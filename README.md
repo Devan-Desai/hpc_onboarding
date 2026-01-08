@@ -24,3 +24,15 @@ grep "Toronto" data/studentdata.csv | head
 sort -t, -k4,4nr data/studentdata.csv | head
 awk -F, '{print $2,$4}' data/studentdata.csv | head
 ```
+
+```bash
+grep "Montreal" data/studentdata.csv | sort -t, -k 4nr | head -n 3
+```
+
+```bash
+grep "Physics" data/studentdata.csv | wc -l
+```
+
+```bash
+grep "Toronto" data/studentdata.csv | awk -F, '{sum+=$4} END {print sum/NR}'
+```
