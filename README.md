@@ -2,7 +2,7 @@
 Steps
 1. Clone the repository
 ```bash
-git clone https://github.com/<your-org>/hpc-workshop.git
+git clone https://github.com/Devan-Desai/hpc_onboarding
 cd hpc-workshop>
 ```
 2. Explore the dataset
