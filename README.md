@@ -16,7 +16,7 @@ cd ..
 ```bash
 cd scripts
 chmod +x analysis.sh
-./analysis.sh
+bash ./analysis.sh
 ```
 4. Try these commands
 ```bash
