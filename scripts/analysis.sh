@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DATA_FILE="../data/fake_students.csv"
+DATA_FILE="../data/studentdata.csv"
 
 echo "=== HPC Workshop Data Analysis ==="
 echo "File: $DATA_FILE"
