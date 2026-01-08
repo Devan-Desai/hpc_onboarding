@@ -15,7 +15,6 @@ avg=$(tail -n +2 "$DATA_FILE" | awk -F, '{sum+=$4} END {print sum/NR}')
 echo "Average grade: $avg"
 
 # Show first 5 students from Toronto
-echo
-echo "Students from Toronto (first 5):"
+echo "First 5 Students from Toronto:"
 grep "Toronto" "$DATA_FILE" | head -n 5
 
